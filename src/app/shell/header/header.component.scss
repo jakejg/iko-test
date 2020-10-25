@@ -1,0 +1,14 @@
+@import "src/theme/theme-variables";
+
+.navbar {
+  margin-bottom: $spacer;
+  background-color: rgb(0, 94, 184);
+}
+
+.nav-link.dropdown-toggle {
+  cursor: pointer;
+}
+
+.logo {
+  width: 80px;
+}

@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="card">
+    <div class="Product-img">
+      <img src="{{ product.img }}" />
+    </div>
+  </div>
+  <div class="Product-title">{{ product.title }}</div>
+  <div class="Product-price">${{ product.price }}</div>
+
+  <div class="card header" aria-controls="description" aria-label="Toggle Description" (click)="toggleDescription()">
+    <span>Description</span>
+  </div>
+  <div id="description" class="collapse float-xs-none" [ngbCollapse]="descriptionHidden">
+    <div class="navbar-nav">
+      {{ product.description }}
+    </div>
+  </div>
+  <div class="card header" aria-controls="details" aria-label="Toggle Details" (click)="toggleDetails()">
+    <span>Details</span>
+  </div>
+
+  <div *ngIf="isClothing" id="details" class="collapse float-xs-none" [ngbCollapse]="detailHidden">
+    <div class="navbar-nav">
+      <form>
+        <div class="form-group">
+          <label for="size">Size</label>
+          <select class="form-control" id="size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="size">Color</label>
+          <select class="form-control" id="size">
+            <option>Black</option>
+            <option>Blue</option>
+            <option>Green</option>
+          </select>
+        </div>
+      </form>
+    </div>
+  </div>
+  <button class="btn add-cart">Add to Cart</button>
+</div>

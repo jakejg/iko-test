@@ -1,0 +1,26 @@
+@import "../../theme/theme.scss";
+
+.Product-title {
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Product-price {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.Product-img {
+  text-align: center;
+}
+
+.header {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.add-cart {
+  background-color: rgb(255, 102, 0);
+}

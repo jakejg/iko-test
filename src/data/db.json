@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://www.ikointl.com/sites/default/files/styles/shop_list_image/public/kiteboarder-certification-credits_1.png?itok=0Z99z8hL",
+      "title": "50 Kiteboarde Certification Credits",
+      "price": 90.0,
+      "description": "Kitebard Cert",
+      "type": "cert"
+    },
+    {
+      "id": 2,
+      "img": "https://www.ikointl.com/sites/default/files/styles/related_images_shop/public/iko-hats.jpeg?itok=vLKVicZB",
+      "title": "IKO Flatbill",
+      "price": 35.0,
+      "description": "Forget baseball, say hello to the kiteboarder cap. Protect your scalp in style and make a statement about your passion for kiteboarding.",
+      "type": "clothing"
+    },
+    {
+      "id": 3,
+      "img": "https://www.ikointl.com/sites/default/files/styles/shop_image/public/mockup-730545f5.jpg?itok=m1FRPhXB",
+      "title": "T-Shirt Navy",
+      "price": 25.0,
+      "description": "It's made of a heavier cotton and the double-stitched neckline and sleeves give it more durability, so it can become an everyday favorite.",
+      "type": "clothing"
+    },
+    {
+      "id": 4,
+      "img": "https://www.ikointl.com/sites/default/files/styles/shop_list_image/public/mockup-0a98b922.jpg?itok=2G6JT2md",
+      "title": "Instructor Rashguard",
+      "price": 42.0,
+      "description": "Protect yourself from the sun and sand while you teach",
+      "type": "clothing"
+    }
+  ]
+}
